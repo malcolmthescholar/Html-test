@@ -1,22 +1,78 @@
-html{
-    font-size: 22px;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ /* *{
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+} */
+
+
+
 body{
-    background-color: rgb(237, 170, 55);
+    font-family: 'font-family: 'Roboto', sans-serif'
+    padding: 10%;
+    font-size: 1rem;
+    background-color: yellow;
     color: rgb(47, 27, 5);
 } 
 
-a {
-    color: rgb(28, 21, 2);
+h1{
+    padding: auto;
+    background-color: ;
+    border-radius: 2rem 2rem 0 0;
 }
+
+nav{
+    border: 2px solid#333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0%;
+    text-align: right;
+    background-color:;
+    margin: 0;
+}
+li {
+    display:inline-block;
+    margin-inline: 0.5rem
+}
+
+li {
+    border-top: 1px #333;
+}
+
+li a{
+    display: block;
+}
+li a,
+li a:visited{
+    text-decoration: none;
+    color: #333;
+}
+li a:hover,
+li a:focus{
+    background:#333;
+    color: greenyellow;
+}
+
+
+
+
+
  
-a:visited {
-    color: darkgoldenrod;
-}
 
 a:hover, a:active {
     color: aliceblue;
 }
+
+
 
 table, tr, th, td, caption {
     border: 1px solid#eee;
